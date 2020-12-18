@@ -48,8 +48,6 @@ class TasksController < ApplicationController
     
   end
     
-    
-end
 
   private
 
@@ -57,3 +55,6 @@ end
   def task_params
     params.require(:task).permit(:content, :status)
   end
+  
+end
+
